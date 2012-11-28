@@ -39,3 +39,14 @@ function hook_registration_entity_settings($settings) {
     )
   );
 }
+
+/**
+ * Provide additional registration states.
+ *
+ * @return array
+ */
+function hook_registration_states() {
+  return array(
+    'registration_state_wait_list' => t('Wait list')
+  );
+}
