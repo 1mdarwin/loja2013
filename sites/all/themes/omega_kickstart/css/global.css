@@ -121,6 +121,7 @@ html {
   overflow-x: hidden; }
 
 body {
+  background: url(../images/bg-body-m.png) repeat-x 0 0 #2792cd;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -2934,3 +2935,9 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   .in-maintenance #page .page-wrapper {
     background: #fff;
     padding: 10px 10px 20px 10px; }
+    /******************************************************
+    * BLOCK HIDDEN
+    *******************************************************/
+    .block-poll{
+      display: none;
+    }

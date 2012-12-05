@@ -26,6 +26,9 @@
 /**********************************************
 * 2.2. Zone branding
 **********************************************/
+#zone-branding{
+  background: #fff;
+}
 .zone-branding .region-branding {
   clear: both; }
   .zone-branding .region-branding .logo-img {
@@ -125,6 +128,9 @@
     border-left: 1px solid #cccccc; }
   .zone-menu .block-menu ul.menu li.last a {
     border-right: 1px solid #cccccc; }
+    .zone-menu{
+      background: #036;
+    }
 
 /**************************************************
 * --
@@ -179,6 +185,9 @@
       }*/ }
     #block-views-demo-content-slideshow-block-1 .bx-wrapper ul.event-slider li img {
       overflow: hidden; }
+      .zone-content{
+        background: #fff;
+      }
 
 /**********************************************
 * 3.3. Zone postscript
@@ -418,3 +427,10 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
 /* Address book */
 .page-user-addressbook .view-commerce-addressbook td {
   display: table-cell; }
+  /******************************************************
+    * BLOCK SHOW
+    *******************************************************/
+
+  .block-poll{
+      display: block;
+    }
