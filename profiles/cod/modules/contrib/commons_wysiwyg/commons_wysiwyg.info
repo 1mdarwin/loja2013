@@ -16,9 +16,9 @@ features[filter][] = full_html
 features[user_permission][] = use text format filtered_html
 features[variable][] = jquery_update_jquery_version
 
-; Information added by drupal.org packaging script on 2012-11-06
+; Information added by drupal.org packaging script on 2012-11-29
 version = "7.x-3.x-dev"
 core = "7.x"
 project = "commons_wysiwyg"
-datestamp = "1352162677"
+datestamp = "1354149808"
 
