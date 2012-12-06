@@ -208,7 +208,7 @@ select {
 * 2.1. Zone user
 **********************************************/
 .zone-user-wrapper {
-  background-color: #888888;
+  background-color: #0e5b8f;
   height: 34px;
   width: 100%; }
 
@@ -266,7 +266,8 @@ select {
 * 2.1.2. Region user second
 *******************************************/
 #region-user-second {
-  background-color: #FFFFFF;
+  background-color: #0e5b8f;
+  /*background-color: #ffffff;*/
   float: right;
   /* LTR */
   height: 100%;
