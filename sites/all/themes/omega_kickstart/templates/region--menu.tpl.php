@@ -10,6 +10,6 @@
       </div>
     </nav>
     <?php endif; ?>
-    <?php print $content; ?>
+    <?php //print $content; ?>
   </div>
 </div>
