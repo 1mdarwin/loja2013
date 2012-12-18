@@ -121,7 +121,8 @@ html {
   overflow-x: hidden; }
 
 body {
-  background: url(../images/bg-body-m.png) repeat-x 0 0 #2792cd;
+  background: url(../images/bg.jpg) no-repeat scroll center top #EFF8FB;
+  /* background: url(../images/bg-body-m.png) repeat-x 0 0 #2792cd; */
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -208,7 +209,7 @@ select {
 * 2.1. Zone user
 **********************************************/
 .zone-user-wrapper {
-  background-color: #0e5b8f;
+  /*background-color: #0e5b8f;*/
   height: 34px;
   width: 100%; }
 
