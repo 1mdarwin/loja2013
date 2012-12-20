@@ -292,7 +292,7 @@
     position: absolute;
     width: auto;
  }
-.button:before {
+.slideshow-url .button:before {
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.2);
     border-radius: 2px 2px 2px 2px;
     content: "";
@@ -302,7 +302,7 @@
     padding-right: 20px;
     width: 100%;
 }
-.button {
+.slideshow-url .button {
     background-image: -moz-linear-gradient(center top , #0692C7, #014897);
     background-image: -webkit-gradient(linear,50% 0%,50% 100%,color-stop(0%,#0692C7),color-stop(100%,#014897));
     border-radius: 3px 3px 3px 3px;
@@ -314,7 +314,7 @@
     position: relative;
     width: auto;
 }
-.button a:before {
+ .slideshow-url .button a:before {
     border-bottom: 8px solid transparent;
     border-left: 12px solid white;
     border-top: 8px solid transparent;
@@ -326,10 +326,10 @@
     top: 9px;
     width: 0;
 }
-.button a {
+.slideshow-url .button a {
     text-shadow: none;
 }
-.button a {
+.slideshow-url .button a {
     border: medium none;
     color: white;
     cursor: pointer;
@@ -344,7 +344,7 @@
     position: relative;
     text-shadow: 1px 1px 1px black;
 }
-.button:hover a:before{
+.slideshow-url .button:hover a:before{
   content:"";
   display:block;
   position:absolute;
@@ -357,7 +357,7 @@
   top:9px;}
   .button:hover a:hover{text-decoration:none;
   }
-  .button:hover a{
+.slideshow-url  .button:hover a{
     position:relative;
     text-shadow:1px 1px 1px white;
     margin-top:-19px;
@@ -372,7 +372,7 @@
     line-height:1.41176em;
     padding:5px 0px 2px 25px;
   }
-  .button a:hover{
+.slideshow-url  .button a:hover{
     text-decoration:none;}
   .button a{text-shadow:none;}
   .button:hover{
