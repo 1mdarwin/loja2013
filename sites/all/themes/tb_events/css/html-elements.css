@@ -256,3 +256,26 @@ td.container td.category {
 th.active img {
   margin-left: 5px;
 }
+/******************************************************
+    * IMG CONTENT
+    *******************************************************/
+.img-der-b{
+  float: right;
+  border: 1px solid #dbdbdb;
+  padding: 5px;
+}
+.img-izq-b{
+  float: left;
+  border: 1px solid #dbdbdb;
+  padding: 5px;
+}
+.img-der{
+  float: right;
+  border: 1px solid #dbdbdb;
+  padding: 5px;
+}
+.img-izq{
+  float: left;
+  border: 1px solid #dbdbdb;
+  padding: 5px;
+}

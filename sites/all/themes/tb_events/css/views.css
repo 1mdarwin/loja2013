@@ -238,18 +238,35 @@
   z-index: 20; /* if you have more than 18 images in slideshow, increase this value */
 }
 
-/* Slideshow Footer */
+/* Slideshow Footer Gold */
 #block-views-slideshow-footer-block--2 {
-  background: url(../images/bg-bbroad.png) no-repeat left top;
+  /*background: url(../images/bg-bbroad.png) no-repeat left top;*/
+  background: url(../images/slideshow-footer-gold.png) no-repeat left top;
   bottom: 0;
   height: 140px;
-  left: 40%;
+  left: 20%;
   position: absolute;
-  width: 177px;
+  /*width: 177px;*/
+  width: 353px;
 }
 
 #block-views-slideshow-footer-block--2 .block-inner {
-  padding: 20px 10px;
+  padding: 20px 25px;
+}
+/* Slideshow Footer Silver */
+#block-views-slideshow-footer-silver-block--2 {
+  /*background: url(../images/bg-bbroad.png) no-repeat left top;*/
+  background: url(../images/slideshow-footer-silver.png) no-repeat left top;
+  bottom: 0;
+  height: 75px;
+  right: 20%;
+  position: absolute;
+  /*width: 177px;*/
+  width: 282px;
+}
+
+#block-views-slideshow-footer-silver-block--2 .block-inner {
+  padding: 7px 13px;
 }
 /***********************************************************
  * Slideshow
