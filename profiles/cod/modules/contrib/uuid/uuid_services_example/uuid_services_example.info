@@ -10,9 +10,9 @@ name = "UUID Services Example"
 package = "Features"
 
 
-; Information added by drush on 2012-11-10
+; Information added by drush on 2013-01-26
 version = "7.x-1.0-alpha3+51-dev"
 core = "7.x"
 project = "uuid"
-datestamp = "1352511671"
+datestamp = "1359186375"
 

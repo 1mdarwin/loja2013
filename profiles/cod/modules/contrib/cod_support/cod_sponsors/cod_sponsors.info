@@ -1,8 +1,9 @@
 name = COD Sponsors
-description = Record and highlight event sponsors.
+description = Manage event sponsors.
 core = 7.x
 package = COD
 php = 5.2.4
+version = 7.x-1.0-alpha2
 project = cod_sponsors
 dependencies[] = cod_base
 dependencies[] = entityreference
@@ -11,6 +12,7 @@ dependencies[] = image
 dependencies[] = link
 dependencies[] = list
 dependencies[] = number
+dependencies[] = og
 dependencies[] = options
 dependencies[] = strongarm
 dependencies[] = taxonomy
@@ -25,6 +27,7 @@ features[field][] = node-sponsor-field_sponsor_logo
 features[field][] = node-sponsor-field_sponsor_related_attendees
 features[field][] = node-sponsor-field_sponsor_sponsorship_level
 features[field][] = node-sponsor-field_sponsor_url
+features[field][] = taxonomy_term-sponsorship_level-og_group_ref
 features[node][] = sponsor
 features[taxonomy][] = sponsorship_level
 features[user_permission][] = create sponsor content
@@ -51,9 +54,10 @@ features[variable][] = node_submitted_sponsorship_level
 features[views_view][] = sponsors
 features[views_view][] = sponsors_admin
 
-; Information added by drupal.org packaging script on 2012-11-10
-version = "7.x-1.0-alpha1"
+
+; Information added by drush on 2013-01-26
+version = "7.x-1.0-alpha2+0-dev"
 core = "7.x"
 project = "cod_support"
-datestamp = "1352509562"
+datestamp = "1359186375"
 

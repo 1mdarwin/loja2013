@@ -9,9 +9,10 @@ features[user_permission][] = "view field_video"
 name = "COD Session Video"
 package = "COD"
 project = "cod_session_video"
-; Information added by drupal.org packaging script on 2012-11-10
-version = "7.x-1.0-alpha1"
+
+; Information added by drush on 2013-01-26
+version = "7.x-1.0-alpha2+0-dev"
 core = "7.x"
 project = "cod_support"
-datestamp = "1352509562"
+datestamp = "1359186375"
 
